@@ -1,0 +1,77 @@
+@font-face{font-family:HelveticaNeueCyr; src:url(/fonts/HelveticaNeueCyr-Light.otf);}
+@font-face{font-family:Code Pro; src:url(/fonts/CodePro.otf);}
+
+html, body {margin:0;padding:0;font-family: HelveticaNeueCyr; min-width:700px;}
+
+body{
+	background: #eeeeee;
+	width: 100%;
+}
+
+nav{
+	background: white;
+	height: 65px;
+	position: fixed;
+	top:0; left:0;
+	width:100%;
+	box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+ul{
+	width:65%;
+	font-size:110%;
+	padding:22px;
+	margin: auto;
+	font-family: HelveticaNeueCyr,sans-serif;
+	list-style-type: none;
+	text-align: right;
+}
+.navlink{color: #303030; text-decoration:none;}
+.navlink:hover{color:#4994e8;}
+li{display:inline;padding:15px;}
+.logo{position:absolute; width:204.5px; margin: 15px auto; left:19%; top:-7px;}
+.logo img{width:204.5px;}
+
+
+section{
+width: 75%;
+max-width:930px;
+margin: 65px auto;	
+background: #f7f7f7;
+padding: 20px;
+padding-top:5px;
+}
+
+
+h2{
+font-family: HelveticaNeueCyr, arial;
+font-size: 200%;
+width:400px;
+margin: 15px auto;
+text-align: center;
+}
+
+p{
+font-family: HelveticaNeueCyr, arial;
+font-size: 120%;
+}
+
+.textinput{
+width:300px;
+display:block;
+margin-bottom: 4px;
+font-size: 105%;
+}
+
+.btn{
+font-family: HelveticaNeueCyr, arial;
+font-size: 105%;
+}
+
+.addfile{font-size: 105%;}
+
+.informer{
+width:100px;
+position:fixed;
+bottom:0;
+}

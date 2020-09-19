@@ -1,0 +1,85 @@
+@font-face{font-family:HelveticaNeueCyr; src:url(/fonts/HelveticaNeueCyr-Light.otf);}
+
+html, body{margin:0; padding:0; width:100%; height: 100%;}
+
+nav{
+float:left;
+width:20%;
+min-height:100%;
+background: #1F1F1F;
+}
+
+ul{
+	margin:auto;
+	font-family: HelveticaNeueCyr,sans-serif;
+	list-style-type: none;
+	padding:0;
+}
+.navlink{color: grey; }
+.navlink:hover{color:white;}
+ul a{text-decoration:none;}
+li{padding:10px 16px;}
+li:hover{background:black;}
+
+.logo{width:204.5px; margin: 20px auto;}
+.logo img{width:204.5px;}
+
+p{color:white; width:90%; margin: auto; font-family: HelveticaNeueCyr,arial;}
+
+content{
+width: 57%;
+min-height: 100%;
+float:left;
+}
+
+h3{font-family: HelveticaNeueCyr,sans-serif;width:350px;margin: 10px auto;}
+
+.thanks a{text-decoration:none; color:#4994e8;}
+.thanks{width:500px; margin: auto;}
+
+#stream{margin:40px auto; width: 560px;}
+
+aside{
+position:absolute;
+height: 100%;
+right:0;
+width: 23%;
+min-height:100%;
+background: #eeeeee;
+border-left: 1px solid #c0c0c0;
+}
+
+#ChatBig{
+height:100%;}
+
+.ChatMessages{
+font-size: 16px; 
+font-weight: normal;
+height:84%;
+padding:15px;
+overflow: auto;
+}
+.ChatMessage{
+max-width: 95%;
+border-radius: 5px;
+float:left;
+word-wrap: break-word;
+background: #F7F7F7;
+padding:4px;
+font-family: arial;
+}
+
+.ChatText{
+width: 88%;
+height: 35px;
+padding:4px;
+margin: 15px 0 0 15px;
+font-family: HelveticaNeueCyr, arial;
+}
+.ChatText:focus{outline: none;}
+hr{margin: 0px auto;}
+.UserNameS{color: #EC40FF;font-size:105%;}
+
+
+
+
