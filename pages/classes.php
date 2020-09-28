@@ -121,10 +121,10 @@
 			
 			$activation=$this->getUserActivation();
             $UserMail=$this->getUserMail();
-			$headers = "From: 24concert <support@24concert.com>";
+			$headers = "From: 24concert <support@ibr.zzz.com.ua>";
             mail("$UserMail","24concert Активация аккаунта",
 			"Активируйте аккаунт, нажав на ссылку: 
-			24concert.com/pages/act.php?usermail=$UserMail&key=$activation \nПоддержка support@24concert.com или vk.vom/ibrus",$headers);
+			ibr.zzz.com.ua/pages/act.php?usermail=$UserMail&key=$activation \nПоддержка support@24concert.com или vk.vom/ibrus",$headers);
 			
 			$req=$bdd->prepare("INSERT INTO users(UserName,UserMail,UserPassword,Activation,Level) VALUES(:UserName,:UserMail,:UserPassword,:Activation,1)");
             $req->execute(array(
